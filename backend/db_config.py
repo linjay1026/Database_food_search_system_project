@@ -1,10 +1,24 @@
+import os
 import mysql.connector
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def get_db_connection():
+    host = os.getenv("DB_HOST")
+    user = os.getenv("DB_USER")
+    password = os.getenv("DB_PASSWORD")
+    database = os.getenv("DB_NAME")
+    port = int(os.getenv("DB_PORT", "3306"))
+
+    if not all([host, user, password, database]):
+        raise ValueError("Missing required DB environment variables: DB_HOST, DB_USER, DB_PASSWORD, DB_NAME")
+
     return mysql.connector.connect(
-        host="140.122.184.128",         # 或者你的資料庫伺服器 IP，例如 "127.0.0.1"
-        user="team2",   # 例如 "root"
-        password="T7d@Vm28qL", # 例如 "123456"
-        database="team2", # 例如 "restaurant_db"
-        charset="utf8mb4"         # 支援中文資料
+        host=host,
+        port=port,
+        user=user,
+        password=password,
+        database=database,
+        charset="utf8mb4"
     )
