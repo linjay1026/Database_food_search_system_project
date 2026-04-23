@@ -1,0 +1,1310 @@
+[
+    {
+        "station_id": "BR01",
+        "station_name": {
+            "cn": "動物園",
+            "en": "Taipei Zoo"
+        },
+        "station_position": {
+            "longitude": 121.579501,
+            "latitude": 24.998205
+        },
+        "station_address": "11656臺北市文山區新光路2段32號"
+    },
+    {
+        "station_id": "BR02",
+        "station_name": {
+            "cn": "木柵",
+            "en": "Muzha"
+        },
+        "station_position": {
+            "longitude": 121.573127,
+            "latitude": 24.99824
+        },
+        "station_address": "11656臺北市文山區木柵路4段135號"
+    },
+    {
+        "station_id": "BR03",
+        "station_name": {
+            "cn": "萬芳社區",
+            "en": "Wanfang Community"
+        },
+        "station_position": {
+            "longitude": 121.568088,
+            "latitude": 24.99857
+        },
+        "station_address": "11653臺北市文山區萬芳路60號"
+    },
+    {
+        "station_id": "BR04",
+        "station_name": {
+            "cn": "萬芳醫院",
+            "en": "Wanfang Hospital"
+        },
+        "station_position": {
+            "longitude": 121.558092,
+            "latitude": 24.99932
+        },
+        "station_address": "11696臺北市文山區興隆路3段113號"
+    },
+    {
+        "station_id": "BR05",
+        "station_name": {
+            "cn": "辛亥",
+            "en": "Xinhai"
+        },
+        "station_position": {
+            "longitude": 121.5570455,
+            "latitude": 25.005455
+        },
+        "station_address": "11694臺北市文山區辛亥路4段128號"
+    },
+    {
+        "station_id": "BR06",
+        "station_name": {
+            "cn": "麟光",
+            "en": "Linguang"
+        },
+        "station_position": {
+            "longitude": 121.5588335,
+            "latitude": 25.018495
+        },
+        "station_address": "10676臺北市大安區和平東路3段410號"
+    },
+    {
+        "station_id": "BR07",
+        "station_name": {
+            "cn": "六張犁",
+            "en": "Liuzhangli"
+        },
+        "station_position": {
+            "longitude": 121.55302,
+            "latitude": 25.02381
+        },
+        "station_address": "10674臺北市大安區和平東路3段168號"
+    },
+    {
+        "station_id": "BR08",
+        "station_name": {
+            "cn": "科技大樓",
+            "en": "Technology Building"
+        },
+        "station_position": {
+            "longitude": 121.5434615,
+            "latitude": 25.02612
+        },
+        "station_address": "10667臺北市大安區復興南路2段235號"
+    },
+    {
+        "station_id": "BR09,R05",
+        "station_name": {
+            "cn": "大安",
+            "en": "Daan"
+        },
+        "station_position": {
+            "longitude": 121.54237,
+            "latitude": 25.033311
+        },
+        "station_address": "文湖線：10683臺北市大安區信義路4段2號\n                                                                                                       淡水信義線：10658臺北市大安區信義路3段180號"
+    },
+    {
+        "station_id": "BR10,BL15",
+        "station_name": {
+            "cn": "忠孝復興",
+            "en": "Zhongxiao Fuxing"
+        },
+        "station_position": {
+            "longitude": 121.545026,
+            "latitude": 25.041749
+        },
+        "station_address": "文湖線：10654臺北市大安區忠孝東路3段302號\n                                                                                                       板南線：10691臺北市大安區忠孝東路4段47號"
+    },
+    {
+        "station_id": "BR12",
+        "station_name": {
+            "cn": "中山國中",
+            "en": "Zhongshan Junior High School"
+        },
+        "station_position": {
+            "longitude": 121.544215,
+            "latitude": 25.06085
+        },
+        "station_address": "10476臺北市中山區復興北路376號"
+    },
+    {
+        "station_id": "BR13",
+        "station_name": {
+            "cn": "松山機場",
+            "en": "Songshan Airport"
+        },
+        "station_position": {
+            "longitude": 121.55201,
+            "latitude": 25.0629075
+        },
+        "station_address": "10576臺北市松山區敦化北路338號"
+    },
+    {
+        "station_id": "BR14",
+        "station_name": {
+            "cn": "大直",
+            "en": "Dazhi"
+        },
+        "station_position": {
+            "longitude": 121.54679,
+            "latitude": 25.07943
+        },
+        "station_address": "10465臺北市中山區北安路534之1號"
+    },
+    {
+        "station_id": "BR15",
+        "station_name": {
+            "cn": "劍南路",
+            "en": "Jiannan Rd."
+        },
+        "station_position": {
+            "longitude": 121.5555825,
+            "latitude": 25.08483
+        },
+        "station_address": "10464臺北市中山區北安路798號"
+    },
+    {
+        "station_id": "BR16",
+        "station_name": {
+            "cn": "西湖",
+            "en": "Xihu"
+        },
+        "station_position": {
+            "longitude": 121.567227,
+            "latitude": 25.08216
+        },
+        "station_address": "11493臺北市內湖區內湖路1段256號"
+    },
+    {
+        "station_id": "BR17",
+        "station_name": {
+            "cn": "港墘",
+            "en": "Gangqian"
+        },
+        "station_position": {
+            "longitude": 121.57516,
+            "latitude": 25.08007
+        },
+        "station_address": "11446臺北市內湖區內湖路1段663號"
+    },
+    {
+        "station_id": "BR18",
+        "station_name": {
+            "cn": "文德",
+            "en": "Wende"
+        },
+        "station_position": {
+            "longitude": 121.5849995,
+            "latitude": 25.078455
+        },
+        "station_address": "11475臺北市內湖區文德路214號"
+    },
+    {
+        "station_id": "BR19",
+        "station_name": {
+            "cn": "內湖",
+            "en": "Neihu"
+        },
+        "station_position": {
+            "longitude": 121.594363,
+            "latitude": 25.083675
+        },
+        "station_address": "11489臺北市內湖區成功路4段186號"
+    },
+    {
+        "station_id": "BR20",
+        "station_name": {
+            "cn": "大湖公園",
+            "en": "Dahu Park"
+        },
+        "station_position": {
+            "longitude": 121.602214,
+            "latitude": 25.083805
+        },
+        "station_address": "11477臺北市內湖區成功路5段11號"
+    },
+    {
+        "station_id": "BR21",
+        "station_name": {
+            "cn": "葫洲",
+            "en": "Huzhou"
+        },
+        "station_position": {
+            "longitude": 121.6071455,
+            "latitude": 25.07271
+        },
+        "station_address": "11486臺北市內湖區康寧路3段16號"
+    },
+    {
+        "station_id": "BR22",
+        "station_name": {
+            "cn": "東湖",
+            "en": "Donghu"
+        },
+        "station_position": {
+            "longitude": 121.611535,
+            "latitude": 25.067455
+        },
+        "station_address": "11486臺北市內湖區康寧路3段235號"
+    },
+    {
+        "station_id": "BR23",
+        "station_name": {
+            "cn": "南港軟體園區",
+            "en": "Nangang Software Park"
+        },
+        "station_position": {
+            "longitude": 121.615,
+            "latitude": 25.05992
+        },
+        "station_address": "11568臺北市南港區經貿二路183號"
+    },
+    {
+        "station_id": "BR24",
+        "station_name": {
+            "cn": "南港展覽館",
+            "en": "Taipei Nangang Exhibition Center"
+        },
+        "station_position": {
+            "longitude": 121.616861,
+            "latitude": 25.054919
+        },
+        "station_address": "文湖線：11568臺北市南港區南港路1段32號"
+    },
+    {
+        "station_id": "BL23",
+        "station_name": {
+            "cn": "南港展覽館",
+            "en": "Taipei Nangang Exhibition Center"
+        },
+        "station_position": {
+            "longitude": 121.616861,
+            "latitude": 25.054919
+        },
+        "station_address": "板南線：11568臺北市南港區研究院路1段1號"
+    },
+    {
+        "station_id": "R02",
+        "station_name": {
+            "cn": "象山",
+            "en": "Xiangshan"
+        },
+        "station_position": {
+            "longitude": 121.570116,
+            "latitude": 25.032395
+        },
+        "station_address": "11080臺北市信義區信義路5段152號B1"
+    },
+    {
+        "station_id": "R03",
+        "station_name": {
+            "cn": "台北101/世貿",
+            "en": "Taipei 101/World Trade Center"
+        },
+        "station_position": {
+            "longitude": 121.563667,
+            "latitude": 25.032865
+        },
+        "station_address": "11049臺北市信義區信義路5段20號B1"
+    },
+    {
+        "station_id": "R04",
+        "station_name": {
+            "cn": "信義安和",
+            "en": "Xinyi Anhe"
+        },
+        "station_position": {
+            "longitude": 121.552326,
+            "latitude": 25.033015
+        },
+        "station_address": "10681臺北市大安區信義路4段212之1號B1"
+    },
+    {
+        "station_id": "R06",
+        "station_name": {
+            "cn": "大安森林公園",
+            "en": "Daan Park"
+        },
+        "station_position": {
+            "longitude": 121.536151,
+            "latitude": 25.033225
+        },
+        "station_address": "10656臺北市大安區信義路3段100號B1 "
+    },
+    {
+        "station_id": "R07",
+        "station_name": {
+            "cn": "東門",
+            "en": "Dongmen"
+        },
+        "station_position": {
+            "longitude": 121.528766,
+            "latitude": 25.033894
+        },
+        "station_address": "10650臺北市大安區信義路2段166號B1"
+    },
+    {
+        "station_id": "R08,G10",
+        "station_name": {
+            "cn": "中正紀念堂",
+            "en": "Chiang Kai-Shek Memorial Hall"
+        },
+        "station_position": {
+            "longitude": 121.518273,
+            "latitude": 25.032767
+        },
+        "station_address": "10074臺北市中正區羅斯福路1段8之1號B1"
+    },
+    {
+        "station_id": "R09",
+        "station_name": {
+            "cn": "台大醫院",
+            "en": "NTU Hospital"
+        },
+        "station_position": {
+            "longitude": 121.51602,
+            "latitude": 25.041399
+        },
+        "station_address": "10048臺北市中正區公園路52號B1"
+    },
+    {
+        "station_id": "R10,BL12",
+        "station_name": {
+            "cn": "台北車站",
+            "en": "Taipei Main Station"
+        },
+        "station_position": {
+            "longitude": 121.517415,
+            "latitude": 25.04631
+        },
+        "station_address": "10041臺北市中正區忠孝西路1段49號"
+    },
+    {
+        "station_id": "R11,G14",
+        "station_name": {
+            "cn": "中山",
+            "en": "Zhongshan"
+        },
+        "station_position": {
+            "longitude": 121.520364,
+            "latitude": 25.052621
+        },
+        "station_address": "淡水信義線：10444臺北市中山區南京西路16號\n                                                                                                       松山新店線：10352臺北市大同區南京西路55號"
+    },
+    {
+        "station_id": "R12",
+        "station_name": {
+            "cn": "雙連",
+            "en": "Shuanglian"
+        },
+        "station_position": {
+            "longitude": 121.520685,
+            "latitude": 25.057575
+        },
+        "station_address": "10354臺北市大同區民生西路47號"
+    },
+    {
+        "station_id": "R13,O11",
+        "station_name": {
+            "cn": "民權西路",
+            "en": "Minzuan W. Rd."
+        },
+        "station_position": {
+            "longitude": 121.519585,
+            "latitude": 25.06235
+        },
+        "station_address": "10365臺北市大同區民權西路72號"
+    },
+    {
+        "station_id": "R14",
+        "station_name": {
+            "cn": "圓山",
+            "en": "Yuanshan"
+        },
+        "station_position": {
+            "longitude": 121.520074,
+            "latitude": 25.0714085
+        },
+        "station_address": "10367臺北市大同區酒泉街9之1號"
+    },
+    {
+        "station_id": "R15",
+        "station_name": {
+            "cn": "劍潭",
+            "en": "Jiantan"
+        },
+        "station_position": {
+            "longitude": 121.5249545,
+            "latitude": 25.0842015
+        },
+        "station_address": "11163臺北市士林區中山北路5段65號"
+    },
+    {
+        "station_id": "R16",
+        "station_name": {
+            "cn": "士林",
+            "en": "Shilin"
+        },
+        "station_position": {
+            "longitude": 121.52623,
+            "latitude": 25.0934925
+        },
+        "station_address": "11163臺北市士林區福德路1號"
+    },
+    {
+        "station_id": "R17",
+        "station_name": {
+            "cn": "芝山",
+            "en": "Zhishan"
+        },
+        "station_position": {
+            "longitude": 121.522546,
+            "latitude": 25.102718
+        },
+        "station_address": "11158臺北市士林區福國路70號"
+    },
+    {
+        "station_id": "R18",
+        "station_name": {
+            "cn": "明德",
+            "en": "Mingde"
+        },
+        "station_position": {
+            "longitude": 121.518785,
+            "latitude": 25.109815
+        },
+        "station_address": "11280臺北市北投區明德路95號"
+    },
+    {
+        "station_id": "R19",
+        "station_name": {
+            "cn": "石牌",
+            "en": "Shipai"
+        },
+        "station_position": {
+            "longitude": 121.515572,
+            "latitude": 25.114455
+        },
+        "station_address": "11271臺北市北投區石牌路1段200號"
+    },
+    {
+        "station_id": "R20",
+        "station_name": {
+            "cn": "唭哩岸",
+            "en": "Qilian"
+        },
+        "station_position": {
+            "longitude": 121.506234,
+            "latitude": 25.1208515
+        },
+        "station_address": "11265臺北市北投區東華街2段301號"
+    },
+    {
+        "station_id": "R21",
+        "station_name": {
+            "cn": "奇岩",
+            "en": "Qiyan"
+        },
+        "station_position": {
+            "longitude": 121.50114,
+            "latitude": 25.1254705
+        },
+        "station_address": "11270臺北市北投區三合街2段489號"
+    },
+    {
+        "station_id": "R22",
+        "station_name": {
+            "cn": "北投",
+            "en": "Beitou"
+        },
+        "station_position": {
+            "longitude": 121.4986475,
+            "latitude": 25.1318185
+        },
+        "station_address": "11246臺北市北投區光明路1號"
+    },
+    {
+        "station_id": "R22A",
+        "station_name": {
+            "cn": "新北投",
+            "en": "Xinbeitou"
+        },
+        "station_position": {
+            "longitude": 121.5025955,
+            "latitude": 25.1369315
+        },
+        "station_address": "11268臺北市北投區大業路700號"
+    },
+    {
+        "station_id": "R23",
+        "station_name": {
+            "cn": "復興崗",
+            "en": "Fuxinggang"
+        },
+        "station_position": {
+            "longitude": 121.485456,
+            "latitude": 25.137497
+        },
+        "station_address": "11257臺北市北投區中央北路3段53巷10號"
+    },
+    {
+        "station_id": "R24",
+        "station_name": {
+            "cn": "忠義",
+            "en": "Zhongyi"
+        },
+        "station_position": {
+            "longitude": 121.4732975,
+            "latitude": 25.1309225
+        },
+        "station_address": "11257臺北市北投區中央北路4段301號"
+    },
+    {
+        "station_id": "R25",
+        "station_name": {
+            "cn": "關渡",
+            "en": "Guandu"
+        },
+        "station_position": {
+            "longitude": 121.467,
+            "latitude": 25.12551
+        },
+        "station_address": "11259臺北市北投區大度路3段296巷51號"
+    },
+    {
+        "station_id": "R26",
+        "station_name": {
+            "cn": "竹圍",
+            "en": "Zhuwei"
+        },
+        "station_position": {
+            "longitude": 121.45955,
+            "latitude": 25.1369
+        },
+        "station_address": "25173新北市淡水區民權路50號"
+    },
+    {
+        "station_id": "R27",
+        "station_name": {
+            "cn": "紅樹林",
+            "en": "Hongshulin"
+        },
+        "station_position": {
+            "longitude": 121.4588,
+            "latitude": 25.15399
+        },
+        "station_address": "25173新北市淡水區中正東路2段68號"
+    },
+    {
+        "station_id": "R28",
+        "station_name": {
+            "cn": "淡水",
+            "en": "Tamsui"
+        },
+        "station_position": {
+            "longitude": 121.445805,
+            "latitude": 25.167745
+        },
+        "station_address": "25158新北市淡水區中正路1號"
+    },
+    {
+        "station_id": "G01",
+        "station_name": {
+            "cn": "新店",
+            "en": "Xindian"
+        },
+        "station_position": {
+            "longitude": 121.53746,
+            "latitude": 24.95761
+        },
+        "station_address": "23152新北市新店區北宜路1段2號"
+    },
+    {
+        "station_id": "G02",
+        "station_name": {
+            "cn": "新店區公所",
+            "en": "Xindian District Office"
+        },
+        "station_position": {
+            "longitude": 121.5413,
+            "latitude": 24.96744
+        },
+        "station_address": "23147新北市新店區北新路1段295號"
+    },
+    {
+        "station_id": "G03",
+        "station_name": {
+            "cn": "七張",
+            "en": "Qizhang"
+        },
+        "station_position": {
+            "longitude": 121.542985,
+            "latitude": 24.97545
+        },
+        "station_address": "23143新北市新店區北新路2段150號"
+    },
+    {
+        "station_id": "G01A",
+        "station_name": {
+            "cn": "小碧潭",
+            "en": "Xiaobitan"
+        },
+        "station_position": {
+            "longitude": 121.53058,
+            "latitude": 24.97188
+        },
+        "station_address": "23150新北市新店區中央路151號4樓"
+    },
+    {
+        "station_id": "G04",
+        "station_name": {
+            "cn": "大坪林",
+            "en": "Dapinglin"
+        },
+        "station_position": {
+            "longitude": 121.54134,
+            "latitude": 24.9827205
+        },
+        "station_address": "23143新北市新店區北新路3段190號"
+    },
+    {
+        "station_id": "G05",
+        "station_name": {
+            "cn": "景美",
+            "en": "Jingmei"
+        },
+        "station_position": {
+            "longitude": 121.5406975,
+            "latitude": 24.992824
+        },
+        "station_address": "11674臺北市文山區羅斯福路6段393號"
+    },
+    {
+        "station_id": "G06",
+        "station_name": {
+            "cn": "萬隆",
+            "en": "Wanlong"
+        },
+        "station_position": {
+            "longitude": 121.539008,
+            "latitude": 25.001978
+        },
+        "station_address": "11678臺北市文山區羅斯福路5段214號"
+    },
+    {
+        "station_id": "G07",
+        "station_name": {
+            "cn": "公館",
+            "en": "Gongguan"
+        },
+        "station_position": {
+            "longitude": 121.534358,
+            "latitude": 25.014781
+        },
+        "station_address": "10091臺北市中正區羅斯福路4段74號B1"
+    },
+    {
+        "station_id": "G08",
+        "station_name": {
+            "cn": "台電大樓",
+            "en": "Taipower Building"
+        },
+        "station_position": {
+            "longitude": 121.5281435,
+            "latitude": 25.020733
+        },
+        "station_address": "10089臺北市中正區羅斯福路3段126之5號B1"
+    },
+    {
+        "station_id": "G09,O05",
+        "station_name": {
+            "cn": "古亭",
+            "en": "Guting"
+        },
+        "station_position": {
+            "longitude": 121.522868,
+            "latitude": 25.026373
+        },
+        "station_address": "10084臺北市中正區羅斯福路2段164之1號B1"
+    },
+    {
+        "station_id": "G11",
+        "station_name": {
+            "cn": "小南門",
+            "en": "Xiaonanmen"
+        },
+        "station_position": {
+            "longitude": 121.51088,
+            "latitude": 25.035585
+        },
+        "station_address": "10066臺北市中正區愛國西路22號B1"
+    },
+    {
+        "station_id": "G13",
+        "station_name": {
+            "cn": "北門",
+            "en": "Beimen"
+        },
+        "station_position": {
+            "longitude": 121.510184,
+            "latitude": 25.049554
+        },
+        "station_address": "10341臺北市大同區塔城街10號"
+    },
+    {
+        "station_id": "G15,O08",
+        "station_name": {
+            "cn": "松江南京",
+            "en": "Songliang Nanjing"
+        },
+        "station_position": {
+            "longitude": 121.53285,
+            "latitude": 25.052693
+        },
+        "station_address": "10457臺北市中山區松江路126號B1"
+    },
+    {
+        "station_id": "G16,BR11",
+        "station_name": {
+            "cn": "南京復興",
+            "en": "Nanjing Fuxing"
+        },
+        "station_position": {
+            "longitude": 121.544303,
+            "latitude": 25.052044
+        },
+        "station_address": "10550臺北市松山區南京東路3段253號"
+    },
+    {
+        "station_id": "G17",
+        "station_name": {
+            "cn": "台北小巨蛋",
+            "en": "Taipei Arena"
+        },
+        "station_position": {
+            "longitude": 121.552549,
+            "latitude": 25.05152
+        },
+        "station_address": "10553臺北市松山區南京東路4段10-1號"
+    },
+    {
+        "station_id": "G18",
+        "station_name": {
+            "cn": "南京三民",
+            "en": "Nanjing Sanmin"
+        },
+        "station_position": {
+            "longitude": 121.56471,
+            "latitude": 25.051588
+        },
+        "station_address": "10569臺北市松山區南京東路5段237號"
+    },
+    {
+        "station_id": "G19",
+        "station_name": {
+            "cn": "松山",
+            "en": "Songshan"
+        },
+        "station_position": {
+            "longitude": 121.577706,
+            "latitude": 25.050118
+        },
+        "station_address": "10567臺北市松山區八德路4段742號"
+    },
+    {
+        "station_id": "O01",
+        "station_name": {
+            "cn": "南勢角",
+            "en": "Nanshijiao"
+        },
+        "station_position": {
+            "longitude": 121.509237,
+            "latitude": 24.990065
+        },
+        "station_address": "23566新北市中和區捷運路6號"
+    },
+    {
+        "station_id": "O02",
+        "station_name": {
+            "cn": "景安",
+            "en": "Jingan"
+        },
+        "station_position": {
+            "longitude": 121.505114,
+            "latitude": 24.99392
+        },
+        "station_address": "23582新北市中和區景平路486號"
+    },
+    {
+        "station_id": "O03",
+        "station_name": {
+            "cn": "永安市場",
+            "en": "Yongan Market"
+        },
+        "station_position": {
+            "longitude": 121.511225,
+            "latitude": 25.002895
+        },
+        "station_address": "23574新北市中和區中和路388號"
+    },
+    {
+        "station_id": "O04",
+        "station_name": {
+            "cn": "頂溪",
+            "en": "Dingxi"
+        },
+        "station_position": {
+            "longitude": 121.515462,
+            "latitude": 25.013858
+        },
+        "station_address": "23445新北市永和區永和路2段168號B1"
+    },
+    {
+        "station_id": "O09",
+        "station_name": {
+            "cn": "行天宮",
+            "en": "Xingtian Temple"
+        },
+        "station_position": {
+            "longitude": 121.53315,
+            "latitude": 25.05924
+        },
+        "station_address": "10468臺北市中山區松江路316號B1"
+    },
+    {
+        "station_id": "O10",
+        "station_name": {
+            "cn": "中山國小",
+            "en": "Zhongshan Elementary School"
+        },
+        "station_position": {
+            "longitude": 121.526609,
+            "latitude": 25.062665
+        },
+        "station_address": "10452臺北市中山區民權東路1段71號B1"
+    },
+    {
+        "station_id": "O12",
+        "station_name": {
+            "cn": "大橋頭",
+            "en": "Daqiaotou"
+        },
+        "station_position": {
+            "longitude": 121.5130035,
+            "latitude": 25.06322
+        },
+        "station_address": "10357臺北市大同區民權西路223號B1"
+    },
+    {
+        "station_id": "O13",
+        "station_name": {
+            "cn": "台北橋",
+            "en": "Taipei Bridge"
+        },
+        "station_position": {
+            "longitude": 121.500575,
+            "latitude": 25.063075
+        },
+        "station_address": "24142新北市三重區重新路1段108號B1"
+    },
+    {
+        "station_id": "O14",
+        "station_name": {
+            "cn": "菜寮",
+            "en": "Cailiao"
+        },
+        "station_position": {
+            "longitude": 121.491421,
+            "latitude": 25.059451
+        },
+        "station_address": "24143新北市三重區重新路3段150號B1"
+    },
+    {
+        "station_id": "O15",
+        "station_name": {
+            "cn": "三重",
+            "en": "Sanchong"
+        },
+        "station_position": {
+            "longitude": 121.48422,
+            "latitude": 25.05571
+        },
+        "station_address": "24161新北市三重區捷運路36號B1 "
+    },
+    {
+        "station_id": "O16",
+        "station_name": {
+            "cn": "先嗇宮",
+            "en": "Xianse Temple"
+        },
+        "station_position": {
+            "longitude": 121.47165,
+            "latitude": 25.04632
+        },
+        "station_address": "24158新北市三重區重新路5段515號B1"
+    },
+    {
+        "station_id": "O17",
+        "station_name": {
+            "cn": "頭前庄",
+            "en": "Touqianzhuang"
+        },
+        "station_position": {
+            "longitude": 121.461655,
+            "latitude": 25.039735
+        },
+        "station_address": "24251新北市新莊區思源路18號B1"
+    },
+    {
+        "station_id": "O18",
+        "station_name": {
+            "cn": "新莊",
+            "en": "Xinzhuang"
+        },
+        "station_position": {
+            "longitude": 121.45218,
+            "latitude": 25.03608
+        },
+        "station_address": "24243新北市新莊區中正路138號B1"
+    },
+    {
+        "station_id": "O19",
+        "station_name": {
+            "cn": "輔大",
+            "en": "Fu Jen University"
+        },
+        "station_position": {
+            "longitude": 121.435735,
+            "latitude": 25.03279
+        },
+        "station_address": "24205新北市新莊區中正路510之1號B1"
+    },
+    {
+        "station_id": "O20",
+        "station_name": {
+            "cn": "丹鳳",
+            "en": "Danfeng"
+        },
+        "station_position": {
+            "longitude": 121.422422,
+            "latitude": 25.029073
+        },
+        "station_address": "24256新北市新莊區中正路624之1號B1"
+    },
+    {
+        "station_id": "O21",
+        "station_name": {
+            "cn": "迴龍",
+            "en": "Huilong"
+        },
+        "station_position": {
+            "longitude": 121.411757,
+            "latitude": 25.022107
+        },
+        "station_address": "24257新北市新莊區中正路758號B1"
+    },
+    {
+        "station_id": "O50",
+        "station_name": {
+            "cn": "三重國小",
+            "en": "Sanchong Elementary School"
+        },
+        "station_position": {
+            "longitude": 121.49701,
+            "latitude": 25.070275
+        },
+        "station_address": "24149新北市三重區三和路3段5號B1"
+    },
+    {
+        "station_id": "O51",
+        "station_name": {
+            "cn": "三和國中",
+            "en": "Sanhe Junior High School"
+        },
+        "station_position": {
+            "longitude": 121.486795,
+            "latitude": 25.07646
+        },
+        "station_address": "24152新北市三重區三和路4段107號B1"
+    },
+    {
+        "station_id": "O52",
+        "station_name": {
+            "cn": "徐匯中學",
+            "en": "St.lgnatius High School"
+        },
+        "station_position": {
+            "longitude": 121.479945,
+            "latitude": 25.080485
+        },
+        "station_address": "24753新北市蘆洲區中山一路3號B1"
+    },
+    {
+        "station_id": "O53",
+        "station_name": {
+            "cn": "三民高中",
+            "en": "Sanmin Senior High School"
+        },
+        "station_position": {
+            "longitude": 121.473365,
+            "latitude": 25.085425
+        },
+        "station_address": "24760新北市蘆洲區三民路105號B1"
+    },
+    {
+        "station_id": "O54",
+        "station_name": {
+            "cn": "蘆洲",
+            "en": "Luzhou"
+        },
+        "station_position": {
+            "longitude": 121.46471,
+            "latitude": 25.09152
+        },
+        "station_address": "24760新北市蘆洲區三民路386號B1"
+    },
+    {
+        "station_id": "BL01",
+        "station_name": {
+            "cn": "頂埔",
+            "en": "Dingpu"
+        },
+        "station_position": {
+            "longitude": 121.4205,
+            "latitude": 24.96012
+        },
+        "station_address": "23671新北市土城區中央路4段51-6號B3"
+    },
+    {
+        "station_id": "BL02",
+        "station_name": {
+            "cn": "永寧",
+            "en": "Yongning"
+        },
+        "station_position": {
+            "longitude": 121.43613,
+            "latitude": 24.96682
+        },
+        "station_address": "23671新北市土城區中央路3段105號B1"
+    },
+    {
+        "station_id": "BL03",
+        "station_name": {
+            "cn": "土城",
+            "en": "Tucheng"
+        },
+        "station_position": {
+            "longitude": 121.44432,
+            "latitude": 24.97313
+        },
+        "station_address": "23671新北市土城區金城路1段105號B1"
+    },
+    {
+        "station_id": "BL04",
+        "station_name": {
+            "cn": "海山",
+            "en": "Haishan"
+        },
+        "station_position": {
+            "longitude": 121.44873,
+            "latitude": 24.985305
+        },
+        "station_address": "23660新北市土城區海山路39號B2"
+    },
+    {
+        "station_id": "BL05",
+        "station_name": {
+            "cn": "亞東醫院",
+            "en": "Far Eastern Hospital"
+        },
+        "station_position": {
+            "longitude": 121.452465,
+            "latitude": 24.99828
+        },
+        "station_address": "22060新北市板橋區南雅南路2段17號B1"
+    },
+    {
+        "station_id": "BL06",
+        "station_name": {
+            "cn": "府中",
+            "en": "Fuzhong"
+        },
+        "station_position": {
+            "longitude": 121.459276,
+            "latitude": 25.008465
+        },
+        "station_address": "22055新北市板橋區縣民大道1段193號B1"
+    },
+    {
+        "station_id": "BL07",
+        "station_name": {
+            "cn": "板橋",
+            "en": "Banqiao"
+        },
+        "station_position": {
+            "longitude": 121.462305,
+            "latitude": 25.013825
+        },
+        "station_address": "22041新北市板橋區站前路5號B1"
+    },
+    {
+        "station_id": "BL08",
+        "station_name": {
+            "cn": "新埔",
+            "en": "Xinpu"
+        },
+        "station_position": {
+            "longitude": 121.468055,
+            "latitude": 25.02327
+        },
+        "station_address": "22047新北市板橋區民生路3段2號B1"
+    },
+    {
+        "station_id": "BL09",
+        "station_name": {
+            "cn": "江子翠",
+            "en": "Jiangzicui"
+        },
+        "station_position": {
+            "longitude": 121.47257,
+            "latitude": 25.030265
+        },
+        "station_address": "22044新北市板橋區文化路2段296號B1"
+    },
+    {
+        "station_id": "BL10",
+        "station_name": {
+            "cn": "龍山寺",
+            "en": "Longshan Temple"
+        },
+        "station_position": {
+            "longitude": 121.500325,
+            "latitude": 25.03528
+        },
+        "station_address": "10855臺北市萬華區西園路1段153號"
+    },
+    {
+        "station_id": "BL11,G12",
+        "station_name": {
+            "cn": "西門",
+            "en": "Ximen"
+        },
+        "station_position": {
+            "longitude": 121.508175,
+            "latitude": 25.042025
+        },
+        "station_address": "10042臺北市中正區寶慶路32之1號B1  "
+    },
+    {
+        "station_id": "BL13",
+        "station_name": {
+            "cn": "善導寺",
+            "en": "Shandao Temple"
+        },
+        "station_position": {
+            "longitude": 121.523885,
+            "latitude": 25.04468
+        },
+        "station_address": "10049臺北市中正區忠孝東路1段58號B1"
+    },
+    {
+        "station_id": "BL14,O07",
+        "station_name": {
+            "cn": "忠孝新生",
+            "en": "Zhongxiao Xinsheng"
+        },
+        "station_position": {
+            "longitude": 121.53321,
+            "latitude": 25.042498
+        },
+        "station_address": "10652臺北市大安區新生南路1段67號"
+    },
+    {
+        "station_id": "BL16",
+        "station_name": {
+            "cn": "忠孝敦化",
+            "en": "Xhongxiao Dunhua"
+        },
+        "station_position": {
+            "longitude": 121.55045,
+            "latitude": 25.041505
+        },
+        "station_address": "10686臺北市大安區忠孝東路4段182號"
+    },
+    {
+        "station_id": "BL17",
+        "station_name": {
+            "cn": "國父紀念館",
+            "en": "Sun Yat-Sen Memorial Hall"
+        },
+        "station_position": {
+            "longitude": 121.557815,
+            "latitude": 25.04137
+        },
+        "station_address": "11072臺北市信義區忠孝東路4段400號"
+    },
+    {
+        "station_id": "BL18",
+        "station_name": {
+            "cn": "市政府",
+            "en": "Taipei City Hall"
+        },
+        "station_position": {
+            "longitude": 121.565685,
+            "latitude": 25.041135
+        },
+        "station_address": "11071臺北市信義區忠孝東路5段2號"
+    },
+    {
+        "station_id": "BL19",
+        "station_name": {
+            "cn": "永春",
+            "en": "Yongchun"
+        },
+        "station_position": {
+            "longitude": 121.5762,
+            "latitude": 25.040855
+        },
+        "station_address": "11061臺北市信義區忠孝東路5段455號"
+    },
+    {
+        "station_id": "BL20",
+        "station_name": {
+            "cn": "後山埤",
+            "en": "Houshanpi"
+        },
+        "station_position": {
+            "longitude": 121.58227,
+            "latitude": 25.044715
+        },
+        "station_address": "11575臺北市南港區忠孝東路6段2號"
+    },
+    {
+        "station_id": "BL21",
+        "station_name": {
+            "cn": "昆陽",
+            "en": "Kunyang"
+        },
+        "station_position": {
+            "longitude": 121.5932285,
+            "latitude": 25.0504585
+        },
+        "station_address": "11558臺北市南港區忠孝東路6段451號"
+    },
+    {
+        "station_id": "BL22",
+        "station_name": {
+            "cn": "南港",
+            "en": "Nangang"
+        },
+        "station_position": {
+            "longitude": 121.60697,
+            "latitude": 25.052035
+        },
+        "station_address": "11561臺北市南港區忠孝東路7段380號"
+    }
+]

@@ -1,0 +1,521 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  padding-top: 50px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;       /* ← 改成 row 表示橫排 */
+  gap: 1rem;                 /* 元素間距 */
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;   /* 讓內容置中 */
+  flex-wrap: wrap;           /* 小螢幕時自動換行 */
+}
+
+.filters input,
+.filters select {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 999px; /* 圓弧邊角 */
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* 微陰影 */
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+.filters input:focus,
+.filters select:focus {
+  border-color: #facc15; /* 聚焦時黃邊框 */
+  box-shadow: 0 0 0 3px rgba(250, 204, 21, 0.3);
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;           /* 可以自動換行 */
+  gap: 1.5rem;
+  justify-content: center;   /* 水平置中 */
+  width: 100%;
+}
+
+.card {
+  background-color: #FFFBF0; /* 卡片偏白 */
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  width: calc(50% - 1.5rem);
+  max-width: 500px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+  text-align: left;
+}
+
+.card-content h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: #5C4526; /* 深咖啡標題 */
+}
+
+.card-content p {
+  margin: 0.25rem 0;
+  color: #555; /* 穩定深灰文字 */
+}
+
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.auth-card {
+  background-color: white;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.auth-card h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-card input,
+.auth-card select {
+  padding: 0.75rem;
+  font-size: 1.05rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.auth-card button {
+  padding: 0.75rem;
+  font-size: 1.05rem;
+  background-color: #ffe58f; /* 鵝黃 */
+  color: #333;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.auth-card button:hover {
+  background-color: #ffdfa0;
+}
+
+.auth-card .switch-link {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.pagination button:hover:not(.active-page):not(:disabled) {
+  background-color: #f0f0f0;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.pagination .active-page {
+  background-color: #facc15; /* tailwind 黃色相似值 */
+  color: black;
+  font-weight: bold;
+  border-color: #facc15;
+}
+
+.favorite-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #fff8dc, #fefae0); /* 鵝黃色漸層 */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 陰影效果 */
+  box-sizing: border-box;
+}
+
+.photo-carousel {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.photo-carousel .swiper-slide {
+  background: white;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.photo-carousel .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pagination-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.pagination-controls label {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pagination-controls select,
+.pagination-controls input {
+  padding: 0.4rem 0.6rem;
+  margin-left: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: auto;
+}
+
+.pagination-controls input[type="number"] {
+  width: 70px;
+  text-align: center;
+}
+
+.pagination-controls button {
+  background-color: #ffeaa7; /* 鵝黃色 */
+  border: none;
+  color: #2d3436;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pagination-controls button:hover {
+  background-color: #facc15;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  font-size: 20px;
+  color: #333;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #facc15;
+}
+
+.detail-info {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  background: #fffef6;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  line-height: 1.8;
+}
+
+.detail-info h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.detail-info h3 strong {
+  min-width: 90px;
+  color: #5C4526;
+}
+
+.review-form {
+  max-width: 860px; /* ✅ 比原本更寬 */
+  margin: 2rem auto;
+  padding: 1.2rem 2rem; /* ✅ 上下 padding 少一點，讓它比較扁 */
+  background-color: #fffbe6;
+  border: 1px solid #f3e5ab;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  font-size: 1.05rem;
+}
+
+.review-form h2 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #5c4526;
+}
+
+.review-form label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.review-form select {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.review-form textarea {
+  width: 100%;
+  resize: none; /* 禁止調整大小 */
+  height: 150px;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.review-form button {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #facc15;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.review-form button:hover {
+  background-color: #f5b938;
+}
+
+.query-button {
+  background-color: #ffeaa7; /* 鵝黃色 */
+  border: none;
+  color: #2d3436;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.query-button:hover {
+  background-color: #facc15;
+}
+
+.owner-section {
+  padding: 2rem;
+  background-color: #fffdf2;
+  margin-top: 4rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.owner-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #5c4526;
+  text-align: center;
+}
+
+.restaurant-item {
+  border-bottom: 1px solid #e0c98d;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.restaurant-item button {
+  background-color: #ffe58f;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.restaurant-item button:hover {
+  background-color: #facc15;
+}
+
+.edit-form {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #fffef6;
+  border: 1px solid #f3e5ab;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.edit-form input,
+.edit-form select {
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.edit-form label {
+  font-weight: bold;
+  margin-top: 1rem;
+  display: block;
+  color: #333;
+}
+
+.edit-form button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #facc15;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.edit-form button:hover {
+  background-color: #f5b938;
+}
+
+.add-button {
+  background-color: #fdd835;         /* 鵝黃色 */
+  color: #2e2e2e;                    /* 深灰文字 */
+  padding: 12px 24px;
+  border: none;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.add-button:hover {
+  background-color: #ffeb3b;         /* hover 稍微更亮 */
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+  .card-link {
+    width: 100%;
+  }
+  .pagination-controls {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .review-form {
+    padding: 1.5rem 1rem;
+    margin: 1rem;
+  }
+}
